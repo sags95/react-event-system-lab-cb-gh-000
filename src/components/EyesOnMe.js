@@ -7,7 +7,7 @@ export default class EyesOnMe extends React.Component{
 
   render(){
     return(
-      <button onMouseOver=
+      <button onMouseOver={this.focus}>Click</button>
     )
   }
 }
